@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نام شما - طراح وب</title>
+    <meta name="description" content="پورتفولیو طراح وب - خدمات طراحی و توسعه وب‌سایت">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+
+    <!-- Cursor -->
+    <div id="cursor"></div>
+    <div id="cursor-blur"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>نام شما</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">خانه</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">درباره من</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">خدمات</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">نمونه کار</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">تماس</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="text-gradient">طراح وب</span>
+                    <br>خلاق و نوآور
+                </h1>
+                <p class="hero-subtitle">
+                    من تجربه‌های دیجیتال فوق‌العاده می‌سازم که کاربران را مجذوب خود می‌کند
+                </p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">نمونه کارهای من</a>
+                    <a href="#contact" class="btn btn-outline">تماس با من</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-elements">
+                    <div class="element element-1"></div>
+                    <div class="element element-2"></div>
+                    <div class="element element-3"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">درباره من</h2>
+                <p class="section-subtitle">بیاید بیشتر آشنا شویم</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>سلام، من یک طراح وب با اشتیاق هستم</h3>
+                    <p>
+                        با بیش از ۵ سال تجربه در طراحی و توسعه وب‌سایت، من در ایجاد تجربه‌های کاربری منحصر به فرد 
+                        تخصص دارم. از طراحی رابط کاربری مدرن تا توسعه فرانت‌اند پیشرفته.
+                    </p>
+                    <div class="skills">
+                        <div class="skill-item">
+                            <span class="skill-name">HTML/CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">React</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">UI/UX Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user"></i>
+                        <p>تصویر شما</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">خدمات من</h2>
+                <p class="section-subtitle">چه کاری برای شما انجام می‌دهم</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>توسعه وب</h3>
+                    <p>ایجاد وب‌سایت‌های مدرن و ریسپانسیو با جدیدترین تکنولوژی‌ها</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>طراحی UI/UX</h3>
+                    <p>طراحی رابط کاربری زیبا و تجربه کاربری بهینه</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>طراحی موبایل</h3>
+                    <p>بهینه‌سازی وب‌سایت برای تمام دستگاه‌های موبایل</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>بهینه‌سازی</h3>
+                    <p>افزایش سرعت و بهبود عملکرد وب‌سایت</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">نمونه کارها</h2>
+                <p class="section-subtitle">پروژه‌های انجام شده</p>
+            </div>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">همه</button>
+                <button class="filter-btn" data-filter="web">وب‌سایت</button>
+                <button class="filter-btn" data-filter="app">اپلیکیشن</button>
+                <button class="filter-btn" data-filter="design">طراحی</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-image"></i>
+                            <p>تصویر پروژه</p>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>پروژه وب‌سایت شرکتی</h3>
+                            <p>طراحی و توسعه وب‌سایت شرکتی مدرن</p>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-link"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-image"></i>
+                            <p>تصویر پروژه</p>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>اپلیکیشن موبایل</h3>
+                            <p>رابط کاربری اپلیکیشن موبایل</p>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-link"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="design">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-image"></i>
+                            <p>تصویر پروژه</p>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>طراحی لوگو</h3>
+                            <p>طراحی هویت بصری برند</p>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-link"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-image"></i>
+                            <p>تصویر پروژه</p>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>فروشگاه آنلاین</h3>
+                            <p>طراحی و توسعه فروشگاه اینترنتی</p>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-link"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">تماس با من</h2>
+                <p class="section-subtitle">بیایید روی پروژه بعدی همکاری کنیم</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>ایمیل</h4>
+                            <p>example@email.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>تلفن</h4>
+                            <p>+98 912 345 6789</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>آدرس</h4>
+                            <p>تهران، ایران</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="نام شما" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="ایمیل شما" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="موضوع" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="پیام شما" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">ارسال پیام</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 نام شما. تمام حقوق محفوظ است.</p>
+                <p>ساخته شده با ❤️ برای نمایش استعدادها</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
